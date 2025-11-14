@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+*.pem
+*.p12
+*.key
+*.mobileprovision
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build outputs
+build/
+dist/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.orig.*
+*.jks
+.metro-health-check*
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js (admin)
+.next/
+out/
+
+# Prisma
+*.db
+*.db-journal
+
